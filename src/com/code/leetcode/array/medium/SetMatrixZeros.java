@@ -1,6 +1,9 @@
 package com.code.leetcode.array.medium;
 
 public class SetMatrixZeros {
+    /*
+     * Question: https://leetcode.com/problems/set-matrix-zeroes/
+     * */
     public void setZeroes(int[][] matrix) {
         int[] row = new int[matrix.length];
         int[] col = new int[matrix[0].length];
